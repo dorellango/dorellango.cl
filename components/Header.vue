@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto max-w-6xl px-4">
-    <div class="py-4 flex justify-between">
+    <div class="py-4 flex justify-between items-center">
       <a href="/" class="logo" alt="home">
         <svg class="h-16 w-16" version="1.1" viewBox="0 0 640 401" xmlns="http://www.w3.org/2000/svg">
           <g fill="none" fill-rule="evenodd">
@@ -17,6 +17,7 @@
           </g>
         </svg>
       </a>
+      <MobileMenu />
       <!-- Links -->
       <ul class="md:flex items-center font-bold text-gray-800 text-lg hidden">
         <li class="mr-4 hover:text-red-700 cursor-not-allowed soon">Blog (👷)</li>
@@ -26,6 +27,14 @@
     </div>
   </div>
 </template>
+
+<script>
+import MobileMenu from './MobileMenu.vue'
+
+export default {
+  components: { MobileMenu }
+}
+</script>
 
 <style scoped>
   .soon {
