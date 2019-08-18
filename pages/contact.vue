@@ -1,77 +1,28 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        dorellango-new
+  <div class="container mx-auto max-w-lg">
+    <div class="my-6 sm:my-8 md:my-16 lg:my-32">
+      <h1 class="text-5xl mb-6 font-bold font-handwritten">
+          Contact Me!
       </h1>
-      <h2 class="subtitle">
-        My Personal website &amp; blog
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+      <div class="text-gray-600">
+        <p class="mb-4 leading-loose">
+          Hey there! Please feel free to contact me if you have any questions or special requirements. I'll do my best to answer you soon as i can.
+        </p>
+        <ul>
+          <li class="flex border-b border-gray-300 py-4">
+            <p class="w-32 mr-2 font-bold">Twitter</p> <a href="https://twitter.com/dorellango" class="text-red-700"  target="_blank">@dorellango</a>
+          </li>
+          <li class="flex border-b border-gray-300 py-4">
+            <p class="w-32 mr-2 font-bold">Email address:</p> <a href="mailto:me@dorellango.cl" class="text-red-700">me@dorellango.cl</a>
+          </li>
+          <li class="flex border-b border-gray-300 py-4">
+            <p class="w-32 mr-2 font-bold">GitHub</p> <a  href="https://github.com/dorellango" target="_blank" class="text-red-700">@dorellango</a>
+          </li>
+          <li class="flex py-4">
+            <p class="w-32 mr-2 font-bold">Phone</p> <a href="tel:+56949529064" class="text-red-700 font-mono">+569 49529064</a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
 </template>
-
-<script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
-  }
-}
-</script>
-
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
