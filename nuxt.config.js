@@ -53,6 +53,13 @@ export default {
     '@nuxtjs/eslint-module'
   ],
   /*
+  ** Generate routes
+  */
+  generate: {
+    routes: ['404']
+      .concat(manifest.map(a => `/articles/${a}`))
+  },
+  /*
   ** Build configuration
   */
   build: {
