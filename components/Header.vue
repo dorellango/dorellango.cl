@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto max-w-6xl">
+  <div class="container mx-auto max-w-6xl px-4">
     <div class="py-4 flex justify-between">
       <a href="/" class="logo" alt="home">
         <svg class="h-16 w-16" version="1.1" viewBox="0 0 640 401" xmlns="http://www.w3.org/2000/svg">
@@ -18,7 +18,7 @@
         </svg>
       </a>
       <!-- Links -->
-      <ul class="flex items-center font-bold text-gray-800 text-lg">
+      <ul class="md:flex items-center font-bold text-gray-800 text-lg hidden">
         <li class="mr-4 hover:text-red-700 cursor-not-allowed soon">Blog (👷)</li>
         <li class="mr-4 hover:text-red-700 cursor-not-allowed soon">Portfolio (👷)</li>
         <li class="hover:text-red-700"><nuxt-link to="/contact">Contact</nuxt-link></li>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto max-w-lg">
+  <div class="container mx-auto max-w-lg px-4">
     <div class="my-6 sm:my-8 md:my-16 lg:my-32">
       <h1 class="text-5xl mb-6 font-bold font-handwritten">
           Contact Me!
