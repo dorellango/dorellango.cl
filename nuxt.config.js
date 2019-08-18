@@ -7,7 +7,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || 'Diego Orellana',
+    title: 'Diego Orellana',
     meta: [{
       charset: 'utf-8'
     },
@@ -18,7 +18,7 @@ export default {
     {
       hid: 'description',
       name: 'description',
-      content: process.env.npm_package_description || 'My personal portfolio & blog'
+      content: 'My personal portfolio & blog'
     }
     ],
     link: [
