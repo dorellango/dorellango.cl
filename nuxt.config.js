@@ -50,8 +50,15 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/google-analytics'
   ],
+  /*
+  ** Google Analytics
+  */
+  googleAnalytics: {
+    id: 'UA-98296446-3'
+  }
   /*
   ** Generate routes
   */
