@@ -58,7 +58,7 @@ export default {
   */
   googleAnalytics: {
     id: 'UA-98296446-3'
-  }
+  },
   /*
   ** Generate routes
   */
